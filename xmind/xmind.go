@@ -157,7 +157,7 @@ func replaceStyles(content string) string {
 }
 
 func parse(t Topic, level int) {
-	PARTS = append(PARTS, fmt.Sprintf("%s %s", strings.Repeat("#", level+1), t.Title))
+	PARTS = append(PARTS, fmt.Sprintf("%s %s", strings.Repeat("#", level+2), t.Title))
 	if RICHTEXT {
 		var (
 			o   string

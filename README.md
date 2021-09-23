@@ -16,12 +16,6 @@ I decided to build my own in Go and to share this little tool to make your life 
 
 # Installation
 
-## Built package
-
-I provide binary files for Linux, OSX and FreeBSD. You can download the specific binary for you environment from the release page:
-
-https://github.com/metal3d/vymad/releases
-
 ## With Go
 
 If you've got "golang" (go) on you computer, you may use:
@@ -80,13 +74,3 @@ Vymad will try to make some modification (in memory) to make notes parsables, th
 
 - some styles are not correctly detected
 - images are not extracted
-
-
-# TODO
-
-- [x] Add an option to tell vymad to get HTML instead of plain text to try to convert it to markdown (experimental)
-- [ ] Extract images from richtext
-- [ ] Find a way to fix Freemind HTML to markdown - be able to not force pandoc usage (eg. give a command used for convertion)
-- [ ] Add other Mindmap format if needed
-- [ ] Code rewrite to use interfaces and ease plugins developpements
-- [ ] Add option to run pandoc

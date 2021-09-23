@@ -10,7 +10,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/metal3d/vymad/pandoc"
+	"github.com/benoitberenger/vymad/pandoc"
 )
 
 // PARTS contains document lines.

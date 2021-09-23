@@ -9,7 +9,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/metal3d/vymad/pandoc"
+	"github.com/benoitberenger/vymad/pandoc"
 )
 
 var PARTS = make([]string, 0)

@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/metal3d/vymad/freemind"
-	"github.com/metal3d/vymad/vym"
-	"github.com/metal3d/vymad/xmind"
+	"github.com/benoitberenger/vymad/freemind"
+	"github.com/benoitberenger/vymad/vym"
+	"github.com/benoitberenger/vymad/xmind"
 )
 
 // TPL is the main file content template.
 const (
-	TPL = `% {{ .Title }}
+	TPL = `# {{ .Title }}
 
 {{ .Content }}
 
